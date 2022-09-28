@@ -14,8 +14,8 @@ const genres = () => {
             <li>History</li>
             <li>Poetry</li>
             <li>Fiction</li>
-            <li>Artificial Intelligence</li>
-            <li>Computer Science/Software Engineering</li>
+            <li>Computation</li>
+            
         </ul>
         </div>
     )
