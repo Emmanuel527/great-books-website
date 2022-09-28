@@ -1,5 +1,7 @@
 import React from 'react'
 
-export default () => (
-   <div>Euclid's Elements</div>
-);
+export default () => {
+    return (
+        <div>Euclid's Elements</div>
+    );
+};
