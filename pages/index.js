@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import Categories from '../components/categories'
 import Genres from '../components/genres'
 import Description from '../components/description'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
       <Description/>
       <Categories/>
       <Genres/>
-      
+      <Footer/>
     </div>
     
   )
