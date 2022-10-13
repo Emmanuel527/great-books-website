@@ -1,8 +1,8 @@
 import React from 'react'
-import Mathbook from '../components/mathbooks'
+import Biology from '../components/biology';
 
 export default () => {
     return (
-        <>coming soon</>
+        <Biology/>
     );
 };

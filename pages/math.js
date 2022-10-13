@@ -3,6 +3,6 @@ import Mathbook from '../components/mathbooks'
 
 export default () => {
     return (
-        <><Mathbook /></>
+        <Mathbook />
     );
 };

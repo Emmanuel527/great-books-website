@@ -1,8 +1,8 @@
 import React from 'react'
-import Mathbook from '../components/mathbooks'
+import Computation from '../components/computation';
 
 export default () => {
     return (
-        <><Mathbook /></>
+        <Computation />
     );
 };

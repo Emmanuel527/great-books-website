@@ -3,17 +3,9 @@ import React from 'react'
 const footer = () => {
     return (
         <>
-            <div>Links to my socials</div>
-            <div>
-                Twitter
+        <div class='font-bold flex-row text-white'>
+            <div>My Favorite Thinkers</div>
             </div>
-            <div>
-                Instagram
-
-            </div>
-            <div>Substack</div>
-            <div>Linkedin</div>
-            <div>Website</div>
         </>
     )
 }

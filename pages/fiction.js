@@ -1,8 +1,8 @@
 import React from 'react'
-import Mathbook from '../components/mathbooks'
+import Fiction from '../components/fiction';
 
 export default () => {
     return (
-        <><Mathbook /></>
+        <Fiction />
     );
 };
