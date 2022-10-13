@@ -2,7 +2,7 @@ import React from 'react'
 
 const psychology = () => {
   return (
-    <div>Books that involve psychology; the study of mental processes and human behavior.</div>
+    <div class='text-white'>Books that involve psychology; the study of mental processes and human behavior.</div>
   )
 }
 
