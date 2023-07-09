@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const genres = () => {
     return (
-        <div class='flex flex-row m-8 space-y-96 text-3xl p-5 text-white'>
+        <div class='flex flex-row m-8 space-y-96 text-3xl p-5 text-black'>
         <ul>
             
             <li> <Link href="/math">Mathematics </Link> </li>
