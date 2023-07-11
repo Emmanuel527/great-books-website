@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import Categories from '../components/categories'
 import Genres from '../components/genres'
 import Description from '../components/description'
-import Footer from '../components/footer'
+import Articles from './articles'
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
       <Description/>
       <Categories/>
       <Genres/>
-      <Footer/>
+      <Articles/>
     </div>
     
   )
