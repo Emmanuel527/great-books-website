@@ -1,13 +1,17 @@
 import React from 'react'
-import Booklist from './booklist'
+
 
 const poetry = () => {
   return (
-    <><div class='text-white m-5'>Poetry is a form of literary art in which language is used for its aesthetic and evocative qualities in addition to, or in lieu of, its apparent meaning. Poetry may be written independently, as discrete poems, or may occur in conjunction with other arts, as in poetic drama, hymns or lyrics.</div>
-
-    <Booklist/>
+    <>
+    <div class="flex justify-center p-10 text-5xl text-black">
+       <h1>Poetry</h1>
+    </div>
     
-    <div class='text-white m-10'>
+    <div class='m-5 text-black text-3xl'>“Painting is poetry that is seen rather than felt, and poetry is painting that is felt rather than seen.”
+    ― Leonardo da Vinci</div>
+    
+    <div class='text-black text-2xl m-10'>
       
       <div>Homer </div>
       <div class='m-5'>

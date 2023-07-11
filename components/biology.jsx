@@ -1,14 +1,19 @@
 import React from 'react'
-import Booklist from './booklist'
 
 const biology = () => {
   return (
 <>
-    <div class='text-white m-5'> Biology is a natural science concerned with the study of life and living organisms, including their structure, function, growth, evolution, distribution, and taxonomy.
+
+<div class="flex justify-center p-10 text-5xl text-black">
+       <h1>Biology</h1>
+    </div>
+
+    <div class="m-5 text-black text-3xl"> “Thus, from the war of nature, from famine and death, the most exalted object which we are capable of conceiving, namely, the production of the higher animals, directly follows. There is grandeur in this view of life, with its several powers, having been originally breathed into a few forms or into one; and that, whilst this planet has gone cycling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved.”
+― Charles Darwin, The Origin of Species
 </div>
 
-<Booklist/>
-    <div class='text-white m-10'>
+
+    <div class='text-black text-2xl m-10'>
     <div>Hippocrates</div>
     <div class='m-5'>
     <div class='italic'>Works</div>

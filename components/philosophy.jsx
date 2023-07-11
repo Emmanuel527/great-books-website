@@ -1,12 +1,17 @@
 import React from 'react'
-import Booklist from './booklist'
+
 
 const philosophy = () => {
   return (
-    <><div class='text-white m-5'>Philosophy is the study of general problems concerning matters such as existence, knowledge, truth, beauty, justice, validity, mind, and language. Philosophy is distinguished from other ways of addressing these questions (such as mysticism or mythology) by its critical, generally systematic approach and its reliance on reasoned argument. The word philosophy is of Ancient Greek origin: φιλοσοφία (philosophía), meaning "love of wisdom. Theology is the critical study of concepts of God and of the nature of religious ideas."</div>
-    <Booklist />
+    <>
+    <div class="flex justify-center p-10 text-5xl text-black">
+       <h1>Philosophy</h1>
+    </div>
+    
+    <div class='m-5 text-black text-3xl'>“All things are in flux; the flux is subject to a unifying measure or rational principle. This principle (logos, the hidden harmony behind all change) bound opposites together in a unified tension, which is like that of a lyre, where a stable harmonious sound emerges from the tension of the opposing forces that arise from the bow bound together by the string.”
+― Heraclitus</div>
 
-    <div class='text-white m-10'>
+    <div class='text-black text-2xl m-10'>
       
       <div>Plato</div>
       <div class='m-5'>

@@ -1,12 +1,17 @@
 import React from 'react'
-import Booklist from './booklist'
+
 
 const history = () => {
   return (
-    <><div class='text-white m-5'>History (from Greek ἱστορία - historia, meaning "inquiry, knowledge acquired by investigation") is the discovery, collection, organization, and presentation of information about past events.</div>
-    <Booklist/>
+    <>
+    <div class="flex justify-center p-10 text-5xl text-black">
+       <h1>History</h1>
+    </div>
     
-    <div class='text-white m-10'>
+    <div class='m-5 text-black text-3xl'>“If you don't know history, then you don't know anything. You are a leaf that doesn't know it is part of a tree. ”
+― Michael Crichton</div>
+    
+    <div class='text-black text-2xl m-10'>
       <div>Herodotus</div>
       <div class='m-5'>
       <div class='italic'>The History</div>

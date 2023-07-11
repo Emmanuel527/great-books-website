@@ -1,12 +1,18 @@
 import React from 'react'
-import Booklist from './booklist'
+
 
 const physics = () => {
   return (
-    <><div class='text-white m-5'>Physics is the natural science that involves the study of matter and its motion through space and time, along with related concepts such as energy and force. More broadly, it is the general analysis of nature, conducted in order to understand how the universe behaves.</div>
+    <>
+    <div class="flex justify-center p-10 text-5xl text-black">
+       <h1>Physics</h1>
+    </div>
+    
+    <div class='m-5 text-black text-3xl'><p>“In the beginning there was nothing, which exploded.” - Terry Pratchett</p>
+    <p>“Not only is the Universe stranger than we think, it is stranger than we can think.” - Werner Heisenberg</p></div>
       <Booklist />
 
-      <div class='text-white m-10'>
+      <div class='text-black text-2xl m-10'>
         <div>Lucretius</div>
         <div class='m-5'>
           <div class='italic'>On the Nature of Things</div>

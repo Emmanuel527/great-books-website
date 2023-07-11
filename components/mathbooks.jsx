@@ -1,20 +1,17 @@
 import React from 'react'
-import Booklist from './booklist'
+
 
 const Euclids = () => {
   return (
     <>
 
 <div class="flex justify-center p-10 text-5xl text-black">
-       <h1 class='mr-20'>Mathematics</h1>
+       <h1>Mathematics</h1>
     </div>
 
-      <div class="m-10 text-black text-3xl">Plato had the sentence "Let no one ignorant of number enter" inscribed in front of the Academy</div>
-
-
-      <Booklist />
-
-
+      <div class="m-5 text-black text-3xl"><p>"Then, my noble friend, geometry will draw the soul towards truth, and create the spirit of philosophy, and raise up that which is now unhappily allowed to fall down." - Plato</p>
+      <p>"If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is." - John von Neumann</p>
+      </div>
 
       <div class='text-black text-2xl m-10'>
         <div>Euclid</div>

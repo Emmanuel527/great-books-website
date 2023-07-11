@@ -1,12 +1,17 @@
 import React from 'react'
-import Booklist from './booklist'
 
 const psychology = () => {
   return (
-    <><div class='text-white m-5'>Books that involve psychology; the study of mental processes and human behavior.</div>
-    <Booklist/>
+    <>
     
-    <div class='text-white m-10'>
+    <div class="flex justify-center p-10 text-5xl text-black">
+       <h1>Psychology, Sociology and Economics</h1>
+    </div>
+
+    <div class='m-5 text-black text-3xl'>“The human race is a monotonous affair. Most people spend the greatest part of their time working in order to live, and what little freedom remains so fills them with fear that they seek out any and every means to be rid of it.”
+― Johann Wolfgang von Goethe</div>
+    
+    <div class='text-black text-2xl m-10'>
 
       <div>William James</div>
       <div class='m-5'>
