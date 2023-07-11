@@ -10,7 +10,6 @@ const physics = () => {
     
     <div class='m-5 text-black text-3xl'><p>“In the beginning there was nothing, which exploded.” - Terry Pratchett</p>
     <p>“Not only is the Universe stranger than we think, it is stranger than we can think.” - Werner Heisenberg</p></div>
-      <Booklist />
 
       <div class='text-black text-2xl m-10'>
         <div>Lucretius</div>
