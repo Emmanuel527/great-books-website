@@ -9,11 +9,17 @@ const description = () => {
     */}
     
     <div>
+
     <div className="bg-[url('/public/images/hero-img.png')] w-[2880px] h-[1620px]">
+
       <div class="">
+
         <h2>"Soon you would've forggotten all things, Soon all things would've forgotten you"</h2>
+
         <p>Marcus Aurelius</p>
+
       </div>
+
     </div>
 
     </div>
