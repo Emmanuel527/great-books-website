@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const description = () => {
   return (
@@ -10,7 +11,23 @@ const description = () => {
     
     <div>
 
-    <div className="bg-[url('/public/images/hero-img.png')] w-[2880px] h-[1620px]">
+
+
+    
+
+
+    <div >
+
+  
+    <div>
+      <Image
+        src={"/images/hero-img.png"}
+        width={1000}
+        height={600}
+        alt="Picture of the author"
+      />
+    </div>
+
 
       <div class="">
 
