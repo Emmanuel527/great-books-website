@@ -24,21 +24,15 @@ const description = () => {
         src={"/images/hero-img.png"}
         width={1000}
         height={600}
-        alt="Picture of the author"
+        alt="Picture of Marcus Aurelius"
       />
     </div>
 
 
-      <div class="">
-
+      <div class="flex justify-center p-10 text-5xl text-black">
         <h2>"Soon you would've forggotten all things, Soon all things would've forgotten you"</h2>
-
-        <p>Marcus Aurelius</p>
-
       </div>
-
     </div>
-
     </div>
       
       </>
